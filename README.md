@@ -2,7 +2,7 @@ Playwright Anti-Detect Browser Automation Framework (Demo)
 A modular, lightweight Python framework built on top of Playwright and WSL2, designed for multi-profile browser isolation, anti-bot fingerprint handling, and batch task execution.
 
 Looking for the full production-ready framework?
-Get the complete, unconstrained source code (including advanced stealth arguments, batch execution controllers, persistent session management, and proxy rotation tools) on Gumroad ($24.99).
+Get the complete, unconstrained source code (including advanced stealth arguments, batch execution controllers, persistent session management, and proxy rotation tools) on **[Gumroad ($24.99)](https://danad.gumroad.com/l/plqzmx)**.
 
 What's in the Full Version?
 engine.py: Fully configured stealth browser launch engine with custom fingerprint masking and retry logic.
@@ -31,4 +31,4 @@ Run the demo script:
 Bash
 python main.py
 License & Commercial Distribution
-This repository serves as a public preview and structural demo. The core production framework is distributed commercially via Gumroad.
+This repository serves as a public preview and structural demo. The core production framework is distributed commercially via [Gumroad](https://danad.gumroad.com/l/plqzmx).
