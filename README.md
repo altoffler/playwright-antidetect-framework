@@ -1,41 +1,34 @@
-Playwright Anti-Detect Browser Automation Framework
+Playwright Anti-Detect Browser Automation Framework (Demo)
 A modular, lightweight Python framework built on top of Playwright and WSL2, designed for multi-profile browser isolation, anti-bot fingerprint handling, and batch task execution.
 
-Features
-Profile Isolation: Persistent user contexts and independent sessions.
+Looking for the full production-ready framework?
+Get the complete, unconstrained source code (including advanced stealth arguments, batch execution controllers, persistent session management, and proxy rotation tools) on Gumroad ($24.99).
 
-Modular Architecture: Clean separation between core engine (engine.py), task definitions (tasks.py), and execution controllers (main.py, batch_run.py).
+What's in the Full Version?
+engine.py: Fully configured stealth browser launch engine with custom fingerprint masking and retry logic.
 
-CLI Control: Easily run single profiles or execute batch tasks sequentially.
+batch_run.py: Production-grade batch controller to execute tasks across multiple profiles sequentially with custom delays.
 
-Project Structure
-engine.py - Core browser launch and stealth configuration.
+tasks.py: Extended automation task templates for browser verification and scraping.
 
-tasks.py - Custom automation tasks and navigation logic.
+Persistent Contexts: Clean profile isolation without cross-contamination.
 
-main.py - CLI coordinator for single profile execution.
-
-batch_run.py - Batch execution script for multiple profiles.
-
-Installation & Setup
+Quick Start (Demo Preview)
 Clone the repository:
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
 
-Create and activate a Python virtual environment:
+Bash
+git clone https://github.com/altoffler/playwright-antidetect-framework.git
+cd playwright-antidetect-framework
+Set up a virtual environment and install dependencies:
+
+Bash
 python3 -m venv venv
 source venv/bin/activate
-
-Install dependencies:
 pip install -r requirements.txt
 playwright install chromium
+Run the demo script:
 
-Configure your profiles:
-Copy config.example.json to config.json and add your profile IDs and proxy settings.
-
-Usage
-Run a specific task for a single profile:
-python main.py 1 sannysoft
-
-Run a batch task across all configured profiles:
-python batch_run.py sannysoft 5
+Bash
+python main.py
+License & Commercial Distribution
+This repository serves as a public preview and structural demo. The core production framework is distributed commercially via Gumroad.
