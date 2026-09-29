@@ -1,0 +1,9 @@
+{
+  "profiles": [
+    {
+      "id": 1,
+      "name": "Profile 1",
+      "proxy": ""
+    }
+  ]
+}

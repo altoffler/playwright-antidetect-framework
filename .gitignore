@@ -1,0 +1,5 @@
+venv/
+__pycache__/
+profiles/
+config.json
+*.png
